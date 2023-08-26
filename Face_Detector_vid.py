@@ -63,32 +63,3 @@ webcam.release()
 
 
 
-
-# # detect faces using algorithm we imported
-# face_coordinates=trained_face_data.detectMultiScale(grayscaled_img)
-# # multiscale means whatever the scale is smaller or bigger, detect it anyways, detected objects are returned as rectangles
-
-
-
-# # (x,y,w,h)=face_coordinates[0]   #will automatically assign 4 coordinates to x,y,w,h
-# # this is for one detecting first face come across
-
-
-# # looping through faces - to detect every face
-# for (x,y,w,h) in face_coordinates:
-#     # cv2.rectangle(img,  (x,y),  (x+w, y+h), (0,255,0), 10)
-# #                 top left        low right  green clr  thickness of rectangle
-
-# # assigning different random colors to different faces/ or different color to same face everytime
-#     cv2.rectangle(img,  (x,y),  (x+w, y+h), (randrange(256), randrange(256), randrange(256)), 10)
-
-
-# print(face_coordinates)
-# # first two cordinates are upper left corner, last two conrdinates are bottom right corner
-
-
-
-
-# print("Code Completed")
-
-# key=cv2.waitKey(1)
